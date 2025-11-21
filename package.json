@@ -1,0 +1,25 @@
+{
+  "name": "unocss-attributify-jsx-astro-mdx-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.5",
+    "@astrojs/mdx": "4.3.12",
+    "@iconify-json/logos": "^1.2.10",
+    "@unocss/reset": "66.5.9",
+    "astro": "5.16.0",
+    "canvas-confetti": "^1.9.4",
+    "unocss": "66.5.9"
+  },
+  "stackblitz": {
+    "installDependencies": false,
+    "startCommand": "npm install && npm run dev"
+  }
+}
